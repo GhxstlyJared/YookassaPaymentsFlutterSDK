@@ -31,5 +31,3 @@ flutter:
       android:
         package: ru.yoomoney.sdk.kassa.payments.flutter
         pluginClass: YookassaPaymentsFlutterPlugin
-      ios:
-        pluginClass: YookassaPaymentsFlutterPlugin
