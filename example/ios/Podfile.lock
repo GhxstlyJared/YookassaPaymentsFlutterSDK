@@ -1,0 +1,78 @@
+PODS:
+  - Flutter (3.0.0)
+  - FunctionalSwift (1.8.0)
+  - MoneyAuth (3.4.0):
+    - FunctionalSwift
+    - ThreatMetrixAdapter
+    - YooMoneyCoreApi
+  - ThreatMetrixAdapter (3.3.3)
+  - TMXProfiling (1.0.1)
+  - TMXProfilingConnections (1.0.1)
+  - YandexMobileMetrica/Dynamic (4.2.0):
+    - YandexMobileMetrica/Dynamic/Core (= 4.2.0)
+    - YandexMobileMetrica/Dynamic/Crashes (= 4.2.0)
+  - YandexMobileMetrica/Dynamic/Core (4.2.0)
+  - YandexMobileMetrica/Dynamic/Crashes (4.2.0):
+    - YandexMobileMetrica/Dynamic/Core
+  - yookassa_payments_flutter (0.0.1):
+    - Flutter
+    - YooKassaPayments (= 6.8.0)
+  - YooKassaPayments (6.8.0):
+    - MoneyAuth (~> 3.4.0)
+    - ThreatMetrixAdapter (~> 3.3.3)
+    - TMXProfiling (= 1.0.1)
+    - TMXProfilingConnections (= 1.0.1)
+    - YandexMobileMetrica/Dynamic (>= 3.0)
+    - YooKassaPaymentsApi (~> 2.11.0)
+    - YooKassaWalletApi (~> 2.3.1)
+    - YooMoneyCoreApi (~> 2.1.0)
+  - YooKassaPaymentsApi (2.11.0):
+    - FunctionalSwift
+    - YooMoneyCoreApi
+  - YooKassaWalletApi (2.3.1):
+    - FunctionalSwift
+    - YooMoneyCoreApi
+  - YooMoneyCoreApi (2.1.0):
+    - FunctionalSwift (~> 1.8.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - yookassa_payments_flutter (from `.symlinks/plugins/yookassa_payments_flutter/ios`)
+
+SPEC REPOS:
+  https://git.yoomoney.ru/scm/sdk/cocoa-pod-specs.git:
+    - FunctionalSwift
+    - MoneyAuth
+    - ThreatMetrixAdapter
+    - TMXProfiling
+    - TMXProfilingConnections
+    - YooKassaPayments
+    - YooKassaPaymentsApi
+    - YooKassaWalletApi
+    - YooMoneyCoreApi
+  https://github.com/CocoaPods/Specs.git:
+    - YandexMobileMetrica
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  yookassa_payments_flutter:
+    :path: ".symlinks/plugins/yookassa_payments_flutter/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 6f378e544fdb3c2db75671011442c5eaf902d3c4
+  FunctionalSwift: b65b0a7ddde7f11a11e794f79a1e8009724ed0bd
+  MoneyAuth: 8f2e4968132e0d187c1f33b6a99f998220c22135
+  ThreatMetrixAdapter: 683cc07cd1faee65c14292f7d748d56b92ff34c9
+  TMXProfiling: a3b9808d62abf72227a366f2cbdca414ee38a023
+  TMXProfilingConnections: e3984a86c3c338f13af682bb77a6d18474289b79
+  YandexMobileMetrica: f5f9c605eaaba33ff6ab2b6bc3259035ca60ed87
+  yookassa_payments_flutter: d3cefc2d375b816278cb1f22a85a74adfda274b8
+  YooKassaPayments: 6e725f147d2dc30b1427518e72d6115e227c48a2
+  YooKassaPaymentsApi: 1b2ea9cadc898717f6216dd0e84dbabd5294dfb4
+  YooKassaWalletApi: ea6fd080bd4663c66fe5db0f37aafb999282048c
+  YooMoneyCoreApi: ddf9ea035b9a3f8d0563b4da8e55652fa07040d3
+
+PODFILE CHECKSUM: b2e848e40e05488c9273432fb90c6c5918bb082f
+
+COCOAPODS: 1.11.3

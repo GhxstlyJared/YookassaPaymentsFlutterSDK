@@ -1,0 +1,9 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+  package="ru.yoomoney.sdk.kassa.payments.flutter">
+
+    <queries>
+        <package android:name="ru.sberbankmobile_alpha" />
+        <package android:name="ru.yoo.money.debug" />
+    </queries>
+
+</manifest>

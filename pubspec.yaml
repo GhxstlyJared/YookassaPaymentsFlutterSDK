@@ -1,0 +1,35 @@
+name: yookassa_payments_flutter
+description: This Flutter SDK allows processing payments using a payment token. It works as an addition to the YooMoney API.
+version: 1.0.3
+homepage: https://git.yoomoney.ru/projects/SDK/repos/yookassa-payments-flutter-sdk/browse
+repository: https://git.yoomoney.ru/projects/SDK/repos/yookassa-payments-flutter-sdk/browse
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=2.10.5"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  # This section identifies this Flutter project as a plugin project.
+  # The 'pluginClass' and Android 'package' identifiers should not ordinarily
+  # be modified. They are used by the tooling to maintain consistency when
+  # adding or updating assets for this project.
+  plugin:
+    platforms:
+      android:
+        package: ru.yoomoney.sdk.kassa.payments.flutter
+        pluginClass: YookassaPaymentsFlutterPlugin
+      ios:
+        pluginClass: YookassaPaymentsFlutterPlugin
