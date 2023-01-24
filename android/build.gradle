@@ -55,5 +55,5 @@ dependencies {
     implementation ('ru.yoomoney.sdk.kassa.payments:yookassa-android-sdk:6.5.3'){
         exclude group: 'res', module: 'res'
     }
-    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1"
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
 }
