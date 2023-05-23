@@ -1,7 +1,7 @@
 group 'ru.yoomoney.sdk.kassa.payments.flutter'
 
 buildscript {
-    ext.kotlin_version = '1.5.0'
+    ext.kotlin_version = '1.5.20'
     repositories {
         google()
         mavenCentral()
